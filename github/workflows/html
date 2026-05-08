@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple HTML Page</title>
+</head>
+<body>
+
+    <h1>Hello World!</h1>
+    <p>This is a simple HTML program.</p>
+
+    <button onclick="showMessage()">
+        Click Me
+    </button>
+
+    <script>
+        function showMessage() {
+            alert("HTML is working!");
+        }
+    </script>
+
+</body>
+</html>
